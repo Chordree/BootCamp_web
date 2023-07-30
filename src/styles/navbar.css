@@ -1,0 +1,22 @@
+
+
+.navBar {
+    
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: .5rem
+}
+
+.menu-list {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.menu-list li {
+    margin-right: 3rem;
+    list-style: none;
+}

@@ -1,0 +1,37 @@
+
+
+.content-page {
+    margin-top: 2rem;
+background-color: #ed2a2a;
+}
+.grid-elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.grid-elements .flex-elements {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+}
+.grid-elements .flex-elements img {
+    width: 100%;
+    border-radius: 20px;
+}
+.grid-elements .flex-elements .main-text {
+
+    position: absolute;
+   
+}
+.grid-elements .flex-elements .sub-text {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+}
+.grid-elements .flex-elements .cta {
+    margin: 0;
+    position: absolute;
+    bottom: 2rem;
+}

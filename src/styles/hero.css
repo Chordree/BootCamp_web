@@ -1,0 +1,20 @@
+
+
+.hero {
+    margin-top: 2rem;
+    background-color: #e48b8b;
+    position: relative;
+}
+.hero img {
+width: 100%;
+/* aspect-ratio: 1/1; */
+object-fit: cover;
+}
+.hero h1 {
+    position: absolute;
+    color: red;
+    inset: 0;
+    /* margin: auto; */
+    /* margin: auto; */
+
+}
